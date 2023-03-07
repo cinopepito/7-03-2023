@@ -1,0 +1,11 @@
+let myString = 'I am a "double quoted string inside "double qotes';
+console.log(myString);
+let adress = '<a href="http://www.example.com" target="_blank">link</a>';
+console.log(adress);
+let myName = "cesar";
+console.log((myName += "is a fine boy around here"));
+let firstName = "Ada";
+let lastLetterOfFirstname = firstName[firstName.length-1];
+console.log(lastLetterOfFirstname);
+let secondTolastLetterOfLastName = firstName[firstName.length-2];
+console.log(secondTolastLetterOfLastName);
